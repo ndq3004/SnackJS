@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Snake game</title>
+        <style>
+            #game-over-dialog{
+                position: absolute;
+
+            }
+        </style>
+    </head>
+    <canvas id="snake" width="608" height="608"></canvas>
+    <dialog  id="game-over-dialog">
+        <form method="dialog">
+            <div>
+                Game Over! Your Score is: <span id="scoreDisplay"></span>
+            </div>
+            <menu>
+                <button id="cancelBtn">Cancel</button>
+                <button id="continueBtn">Continue</button>
+            </menu>
+        </form>
+    </dialog>
+    <script src="snake.js"></script>
+</html>
